@@ -1,4 +1,4 @@
-# cordova plugin urovo scanner
+# Cordova Plugin Urovo Scanner
  Cordova Plugin Urovo Device Scanner
 
 ## Supported Platforms
