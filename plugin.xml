@@ -13,7 +13,6 @@
 			</feature>
 		</config-file>
     <config-file parent="/*" target="AndroidManifest.xml"></config-file>
-    <source-file src="src/android/BarcodeListener.java" target-dir="src/ru/kservice/ksm/cordova" />
 		<config-file parent="/*" target="AndroidManifest.xml"></config-file>
 		<source-file src="src/android/CordovaPluginUrovoScanner.java" target-dir="src/com/urovoscanner/CordovaPluginUrovoScanner" />
     <source-file src="src/android/libs/platform_sdk_v3.1.0326.jar" target-dir="libs" />
