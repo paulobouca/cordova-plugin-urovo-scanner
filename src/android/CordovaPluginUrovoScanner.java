@@ -72,14 +72,6 @@ public class CordovaPluginUrovoScanner extends CordovaPlugin {
 	}
 
 	@Override
-	public void onPause(boolean multitasking) {
-		if (this.scanManager != null) {
-			this.scanManager.stopDecode();
-		}
-		this.webView.getContext().unregisterReceiver(this.scanReceiver);
-	}
-
-	@Override
 	public void onDestroy() {
 		if (this.scanReceiver != null) {
 			try {
